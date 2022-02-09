@@ -1,0 +1,18 @@
+{
+	"filePathForRawCaseData": "../Scraper/csvs/current-scrape/",
+	"filePathForPreRawCaseData": "../Scraper/csvs/prev-scrape/",
+	"filePathForBackUpFolderOneLevelUp": "../data/",
+	"filePathForWorkFolder": "../data/current/",
+	"filePathForWorkFolderRawData": "../data/current/rawData/",
+	"filePathForWorkFolderPreRawData": "../data/current/preRawData/",
+	"counties":{
+		"063":"Clayton",
+		"067":"Cobb",
+		"089":"DeKalb",
+		"121":"Fulton",
+		"135":"Gwinnett",
+		"051":"Chatham",
+		"151":"Henry",
+		"021":"Maconbibb"
+	}
+}

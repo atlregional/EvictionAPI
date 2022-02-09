@@ -1,0 +1,11 @@
+%syntax-version=1.0.0
+%project=app
+
+20201120183946-initial 2020-11-20T18:40:08Z root <root@docker-desktop> # Add 20201120183946-initial migration
+20201120194937-fulton_county_cases 2020-11-20T19:50:19Z root <root@docker-desktop> # add fulton data
+20201123211202-atlanta_metro_area_cases 2020-11-23T21:12:47Z root <root@docker-desktop> # add case level data for AMA
+20201124164059-config 2020-11-24T16:41:42Z root <root@docker-desktop> # test
+20201202154606-atlanta_metro_area_case 2020-12-02T15:46:51Z root <root@docker-desktop> # change the schema for case level data
+20210408234530-geojsons 2021-04-08T23:46:07Z root <root@docker-desktop> # add geojson output
+20210624032704-cases 2021-06-24T03:28:06Z root <root@docker-desktop> # add new columns
+20210624200311-atlanta_cases 2021-06-24T20:03:57Z root <root@docker-desktop> # add two ids
