@@ -46,8 +46,8 @@ cron.schedule(' 10 13 * * 5', function() {
 
     runScraper('../Scraper/EvictionScraper.js', ['Gwinnett','DeKalb'], function (err1) {
       if (err1) throw err1;
-      runScraper('../Scraper/EvictionScraper.js', ['Chatham','Maconbibb'], function (err2) {
-        if (err2) throw err2;
+      // runScraper('../Scraper/EvictionScraper.js', ['Chatham','Maconbibb'], function (err2) {
+      //   if (err2) throw err2;
         runScraper('../Scraper/EvictionScraper.js', ['Clayton','Cobb'], function (err3) {
           if (err3) throw err3;
           runScraper('../Scraper/EvictionScraper.js', ['','Henry'], function (err4) {
@@ -140,7 +140,7 @@ cron.schedule(' 10 13 * * 5', function() {
           
           })
         })
-      })
+      // })
     });
   })
 });
