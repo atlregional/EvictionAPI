@@ -194,9 +194,15 @@ def insertCaseLevelDataFromcsvToDB(filePathForWorkFolder, fileName):
                 else:
                     judgmentDate = "9999-12-12"
 
+                geometryDict = {
+                    "type": "Point",
+                    "coordinates": [float(row[39]), float(row[40])]
+                }
+
                 newCaseDict = {
                     "filingDate": fileDate,
                     "answer": row[24],
+                    "geometry": geometryDict,
                     "latitude": row[40],
                     "longitude": row[39],
                     "services": row[27],
