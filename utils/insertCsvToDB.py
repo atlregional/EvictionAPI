@@ -120,6 +120,7 @@ def insertCaseLevelDataFromcsvToDB(filePathForWorkFolder, fileName):
                 uniqueId = row[2] + row[41] + row[44]
                 tractId = row[41]
                 blockGroupId = row[45]
+                county = row[44]
 
                 if row[47] != "N/A":
                     street = row[47].split(",")[0]
@@ -202,6 +203,7 @@ def insertCaseLevelDataFromcsvToDB(filePathForWorkFolder, fileName):
                 newCaseDict = {
                     "filingDate": fileDate,
                     "answer": row[24],
+                    "county": county,
                     "geometry": geometryDict,
                     "latitude": row[40],
                     "longitude": row[39],
